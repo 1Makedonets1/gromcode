@@ -1,0 +1,20 @@
+.style {
+    color: green;
+}
+
+.style__list {
+    font-size: 22px;
+}
+
+.orange {
+    color: orange;
+}
+
+.css-rules {
+    background: yellow;
+}
+
+.css-rules__red {
+    background: red;
+    color: white;
+}
