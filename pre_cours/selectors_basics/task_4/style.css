@@ -1,23 +1,31 @@
 a[target="_blank"] {
-    color: green;
+  color: green;
 }
 
-ul {
-    background: yellow;
+ul, ol {
+  background: yellow;
 }
 
-header, footer {
-border: 3px dashed blue;
+header,
+footer {
+  border: 3px dashed blue;
 }
 
-h1, h2, h3, h4 {
-    margin-left: 20px;
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 20px;
 }
 
 article.new {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-li.new{
-    background: red;
+li.new {
+  background: red;
+}
+
+.new.posted-today {
+    background: pink;
 }
