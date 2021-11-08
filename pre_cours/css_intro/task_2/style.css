@@ -1,11 +1,12 @@
 * {
     font-size: 24px;
-}
-
-.list {
-    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text {
     color: green;
+}
+
+.list {
+    color: orange;
 }
