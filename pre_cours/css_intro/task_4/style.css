@@ -1,22 +1,22 @@
 .header {
-    background: red;
-    height: 100px;
+  background: red;
+  height: 100px;
 }
 
 .title {
-    font-size: 24px;
-    color: white;
+  font-size: 24px;
+  color: white;
 }
 
 .main {
-    background: blue;
-    height: 300px;
-    font-size: 18px;
+  background: blue;
+  height: 300px;
+  font-size: 18px;
 }
 
 .footer {
-    color: white;
-    background: green;
-    font-size: 18px;
-    height: 100px;
+  color: white;
+  background: green;
+  font-size: 18px;
+  height: 100px;
 }
