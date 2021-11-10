@@ -43,7 +43,7 @@ body > div:nth-child(5) > p {
 }
 
 body > div:nth-child(5) > p:nth-child(2) {
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 body > div:nth-child(5) > p > em {
