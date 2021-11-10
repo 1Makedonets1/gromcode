@@ -1,1 +1,3 @@
 Флекс боксы - http://flexbox.help/
+life_coding(flex) - https://www.youtube.com/watch?v=OmGpwA8Njl8
+life_coding(bem) - https://www.youtube.com/watch?v=RZZwnGVM9Yo
