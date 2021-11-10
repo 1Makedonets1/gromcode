@@ -1,0 +1,31 @@
+body {
+    padding-left: 50px;
+}
+
+.frgreen{
+    width: 100px;
+    height: 50px;
+    margin: 50px 0px;
+    background: forestgreen;
+    border-radius: 16px;
+}
+.dmagneta{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+    background: darkmagenta;
+    border-radius: 50%;
+}
+.aqua{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    background: aquamarine;
+    border-radius: 50%;
+}
+
+.brown{
+    width: 0;
+    border: 50px solid transparent; 
+    border-top: 50px solid brown;
+}
