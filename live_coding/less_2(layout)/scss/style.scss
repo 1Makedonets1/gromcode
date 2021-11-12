@@ -1,0 +1,16 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+@import "_var.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Karla, sans-serif;
+  background: $liteBg;
+  width: 90%;
+  margin: auto;
+}
+
+@import "_navigation";
+@import "_products";

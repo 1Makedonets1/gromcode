@@ -1,0 +1,49 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    background:  $wite;
+    border: 1px solid $liteBg;
+
+    &__img img {
+        width: 100%;
+        padding: 50px 15px;
+    }
+
+    &__info {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    &__title {
+        margin: 0;
+        white-space: normal;
+    }
+
+    &__price {
+        margin: 0;
+        font-size: 0.875em;
+        color: $greyText;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .products {
+      flex-basis: 25%;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .products {
+      flex-basis: 20%;
+    }
+  
+  }
+
+
