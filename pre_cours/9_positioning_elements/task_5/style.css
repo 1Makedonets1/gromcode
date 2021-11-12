@@ -1,72 +1,73 @@
-*{
-    box-sizing: border-box;
-} 
+* {
+  box-sizing: border-box;
+}
 
 .header {
-    background: darkturquoise;
-    height: 40px;
+  height: 40px;
+}
+
+.navigation {
+  height: 40px;
+  background: darkturquoise;
 }
 
 .nav-list {
-    margin: 0;
-    height: 40px;  
+  display: flex;
+  margin: 0;
 }
 
-
 .nav-item {
-    list-style: none;
-    color: white;
-    float: left;
-    height: 40px;
-    margin-right: 16px; 
-    margin-top: 11px; 
-    
+  list-style: none;
+  color: white;
+  height: 40px;
+  margin-right: 16px;
+  padding: 11px;
 }
 
 .content {
-    background: beige;
-    height: 5000px;
+  background: beige;
+  height: 5000px;
 }
 
 .head {
-    height: 200px;
-    width: 200px;
-    background: aquamarine;
-    position: relative;
-    top: calc(50% - 100px);
-    left: calc(50% - 100px);
+  height: 200px;
+  width: 200px;
+  background: aquamarine;
+  position: relative;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 
 .ear {
-    width: 40px;
-    height: 60px;
-    background: brown;
-    position: absolute;
-    top: calc(50% - 160px);
+  width: 40px;
+  height: 60px;
+  background: brown;
+  position: absolute;
+  top: calc(50% - 160px);
 }
 
 .ear_left {
-    right: calc(50% - 140px);
+  right: calc(50% - 140px);
 }
 
 .ear_right {
-    left: calc(50% - 140px);
+  left: calc(50% - 140px);
 }
 
 .eye {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: grey;
-    position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: grey;
+  position: absolute;
 }
-    
+
 .eye_right {
-    right: calc(50% - 60px);
-    top: calc(50% - 20px);
+  right: calc(50% - 60px);
+  top: calc(50% - 20px);
 }
 
 .eye_left {
-    left: calc(50% - 60px);
-    top: calc(50% - 20px);
+  left: calc(50% - 60px);
+  top: calc(50% - 20px);
 }
