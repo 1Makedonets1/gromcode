@@ -19,9 +19,8 @@
 .nav-item {
   list-style: none;
   color: white;
-  height: 40px;
   margin-right: 16px;
-  padding: 11px;
+  padding-top: 11px;
 }
 
 .content {
