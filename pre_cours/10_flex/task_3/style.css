@@ -1,5 +1,71 @@
-.border {
-  padding: 50px; 
-  background: aqua; 
-  border: 3px solid  black;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background: yellow; 
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  padding-left: 16px;
+
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.dashbord {
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+
+.sidebar {
+  width: 200px;
+  background: grey;
+}
+
+.sidebar__title {
+  margin: 16px 0;
+  text-align: center;
+}
+
+.sidebar__list {
+  list-style: none;
+  padding-left: 16px;
+}
+
+.sidebar__item {
+  height: 40px;
+}
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: green;
 }
