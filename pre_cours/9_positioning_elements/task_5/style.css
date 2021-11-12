@@ -9,10 +9,12 @@
 .navigation {
   height: 40px;
   background: darkturquoise;
+  display: flex;
 }
 
 .nav-list {
   display: flex;
+  align-items: center;
   margin: 0;
 }
 
@@ -20,7 +22,6 @@
   list-style: none;
   color: white;
   margin-right: 16px;
-  padding-top: 11px;
 }
 
 .content {
