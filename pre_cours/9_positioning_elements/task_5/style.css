@@ -1,22 +1,63 @@
-div {
-    border: 2px solid black;
-    padding: 50px;
+*{
+    box-sizing: border-box;
+} 
+
+.header {
+    background: darkturquoise;
+    height: 40px;
 }
 
-.external {
-    margin: 50px;
-    background: blue;
+.nav-item {
+    list-style: none;
+    color: white;
+    float: left;
+    margin: 12px 16px;
 }
 
-.external > div {
-    background: yellow;
+.content {
+    background: beige;
+    height: 5000px;
 }
 
-.external > div > div {
-    background: green;
+.head {
+    height: 200px;
+    width: 200px;
+    background: aquamarine;
+    position: fixed;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
 }
 
-.interior {
-    background: pink;
+.ear {
+    width: 40px;
+    height: 60px;
+    background: brown;
+    position: fixed;
+    top: calc(50% - 160px);
 }
 
+.ear_left {
+    right: calc(50% - 140px);
+}
+
+.ear_right {
+    left: calc(50% - 140px);
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: grey;
+    position: fixed;
+}
+    
+.eye_right {
+    right: calc(50% - 60px);
+    top: calc(50% - 20px);
+}
+
+.eye_left {
+    left: calc(50% - 60px);
+    top: calc(50% - 20px);
+}
