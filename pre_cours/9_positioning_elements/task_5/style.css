@@ -7,12 +7,20 @@
     height: 40px;
 }
 
+.nav-list {
+    margin: 0;
+    height: 40px;  
+}
+
+
 .nav-item {
     list-style: none;
     color: white;
     float: left;
-    margin: 12px 16px;
     height: 40px;
+    margin-right: 16px; 
+    margin-top: 11px; 
+    
 }
 
 .content {
