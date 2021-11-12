@@ -6,6 +6,7 @@
     width: 100%;
     position: fixed;
   height: 40px;
+  z-index: 99;
 }
 
 .navigation {
