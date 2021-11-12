@@ -1,5 +1,29 @@
-.border {
-  padding: 50px; 
-  background: aqua; 
-  border: 3px solid  black;
+* {
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  float: left;
+  width: 20%;
+}
+
+.block_red {
+  background: red;
+}
+
+.block_green {
+  background: green;
+}
+
+.block_blue {
+  background: blue;
+}
+
+.block_yellow {
+  background: yellow;
+}
+
+.block_black {
+  background: black;
 }
