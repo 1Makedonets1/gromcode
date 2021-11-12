@@ -19,6 +19,9 @@
 }
 
 .nav-item {
+  display: flex;
+  align-items: center;
+  height: 40px;
   list-style: none;
   color: white;
   margin-right: 16px;
