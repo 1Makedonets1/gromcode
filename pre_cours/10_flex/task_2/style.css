@@ -1,12 +1,12 @@
-.border {
-    width: 420px;
-    height: 140px;
-    background: bisque;
-    margin: 50px 100px;
-    padding: 20px;
-    border-top: 10px solid firebrick;
-    border-right: 20px solid chartreuse;
-    border-bottom: 10px dashed burlywood;
-    border-left: 20px dashed aqua;
-    font-size: 24px;
-}
+.block {
+    background-color: coral;
+    margin: 8px;
+    height: 100px;
+    min-width: 100px;
+    flex: 1;
+  }
+
+  .container {
+      display: flex;
+
+  }
