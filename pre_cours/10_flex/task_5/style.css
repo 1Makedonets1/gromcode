@@ -1,0 +1,22 @@
+div {
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.external {
+    margin: 50px;
+    background: blue;
+}
+
+.external > div {
+    background: yellow;
+}
+
+.external > div > div {
+    background: green;
+}
+
+.interior {
+    background: pink;
+}
+
