@@ -13,8 +13,8 @@ h1 {
 }
 
 .article {
-    padding: 8px;
-    margin: 16px;
+    padding: 16px;
+    margin: 8px;
     background: bisque;
     flex-grow: inherit; 
     flex-basis: 300px;     
