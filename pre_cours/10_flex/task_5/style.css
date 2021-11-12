@@ -1,22 +1,23 @@
-div {
-    border: 2px solid black;
-    padding: 50px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
 }
 
-.external {
-    margin: 50px;
-    background: blue;
+h1 {
+    text-align: center;
 }
 
-.external > div {
-    background: yellow;
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
 }
 
-.external > div > div {
-    background: green;
+.article {
+    padding: 8px;
+    margin: 16px;
+    background: bisque;
+    flex-grow: inherit; 
+    flex-basis: 300px;     
 }
-
-.interior {
-    background: pink;
-}
-
