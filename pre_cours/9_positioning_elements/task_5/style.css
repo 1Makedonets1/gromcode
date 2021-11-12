@@ -12,6 +12,7 @@
     color: white;
     float: left;
     margin: 12px 16px;
+    height: 40px;
 }
 
 .content {
@@ -23,7 +24,7 @@
     height: 200px;
     width: 200px;
     background: aquamarine;
-    position: fixed;
+    position: relative;
     top: calc(50% - 100px);
     left: calc(50% - 100px);
 }
@@ -32,7 +33,7 @@
     width: 40px;
     height: 60px;
     background: brown;
-    position: fixed;
+    position: absolute;
     top: calc(50% - 160px);
 }
 
@@ -49,7 +50,7 @@
     height: 30px;
     border-radius: 50%;
     background: grey;
-    position: fixed;
+    position: absolute;
 }
     
 .eye_right {
