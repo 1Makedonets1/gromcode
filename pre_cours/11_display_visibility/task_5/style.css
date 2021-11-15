@@ -1,22 +1,13 @@
-div {
-    border: 2px solid black;
-    padding: 50px;
+* {
+    box-sizing: border-box;
 }
 
-.external {
-    margin: 50px;
-    background: blue;
+.gallery {
+    display: flex;
+    cursor: all-scroll;
+    overflow-x: scroll;
 }
 
-.external > div {
-    background: yellow;
+.thumb {
+    margin: 8px;
 }
-
-.external > div > div {
-    background: green;
-}
-
-.interior {
-    background: pink;
-}
-
