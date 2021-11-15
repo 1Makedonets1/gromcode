@@ -1,12 +1,31 @@
-.border {
-    width: 420px;
-    height: 140px;
-    background: bisque;
-    margin: 50px 100px;
-    padding: 20px;
-    border-top: 10px solid firebrick;
-    border-right: 20px solid chartreuse;
-    border-bottom: 10px dashed burlywood;
-    border-left: 20px dashed aqua;
-    font-size: 24px;
+* {
+    box-sizing: border-box;
 }
+
+.articles > div {
+    width: 150px;
+    height: 100px;
+    background: beige;
+    margin: 16px;
+}
+
+.articles {
+    display: flex;
+}
+
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow: scroll;
+}
+
+.vertical-scroll {
+    overflow-y: scroll;
+}
+
+.cropped ~ div {
+    cursor: all-scroll;
+}
+
