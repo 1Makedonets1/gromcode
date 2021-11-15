@@ -5,19 +5,23 @@
 .dropdown {
   position: relative;
   margin: 16px;
+  padding: 16px;
   background: darkgreen;
-  opacity: 0.8;
   font-size: 16px;
   color: white;
+  opacity: 0.8;
   display: inline-block;
-  padding: 8px;
   cursor: pointer;
+}
+
+.dropdown:hover {
+  opacity: 1;
 }
 
 .menu-list {
   display: none;
   position: absolute;
-  top: 34px;
+  top: 50px;
   left: 0;
   color: black;
   list-style: none;
@@ -29,10 +33,11 @@
   margin: 0;
 }
 
+.dropdown:hover .menu-list{
+  display: block;
+}
+
 .menu-item {
   padding: 16px;
 }
 
-.dropdown:hover .menu-list{
-  display: block;
-}
