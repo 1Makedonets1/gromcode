@@ -1,12 +1,21 @@
-.border {
-    width: 420px;
-    height: 140px;
-    background: bisque;
-    margin: 50px 100px;
-    padding: 20px;
-    border-top: 10px solid firebrick;
-    border-right: 20px solid chartreuse;
-    border-bottom: 10px dashed burlywood;
-    border-left: 20px dashed aqua;
-    font-size: 24px;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 74px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50%;
+    margin: auto;
+
+}
+
+div {
+    height: 200px;
+    background: coral;
+    color: white;
+    text-transform: uppercase;
+    
 }
